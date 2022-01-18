@@ -1,7 +1,7 @@
 
 const getData = () => {
 
-    const DOCS_URL = '1154f_D8oPL-iVz_vRSOSzjo-x-ZVhVHCQ0QsxTlkVso';
+    const DOCS_URL = '1PB8Go8E1LHM9RC6P2RTQXQKY6mH5OXBgAlRdrjxHCB8';
 
   const result = fetch(`https://opensheet.vercel.app/${DOCS_URL}/1`, {
     method: 'GET',
@@ -27,7 +27,8 @@ const getData = () => {
     .catch((error) => {
       console.log(error)
     })
-    .finally(() => {     
+    .finally(() => { 
+       
     })
 }
 
